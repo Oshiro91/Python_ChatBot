@@ -38,7 +38,7 @@ else:
 
 # Chat parameters
 temperature = st.sidebar.slider("Temperature", 0.0, 2.0, 0.7, 0.1)
-max_tokens = st.sidebar.slider("Max Tokens", 100, 4000, 1000, 100)
+max_tokens = st.sidebar.slider("Max Tokens", 100, 4000, 150, 50)
 
 # Initialize chat history
 if "messages" not in st.session_state:
