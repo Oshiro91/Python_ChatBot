@@ -1,4 +1,4 @@
-deprecation==2.1.0
-st-theme==1.2.3
-streamlit==1.45.1
-toml==0.10.2
+streamlit
+requests
+PyPDF2
+python-docx
